@@ -183,6 +183,10 @@ footer p {
   margin: 0;
 }
 
+footer a {
+  color: var(--gold-soft);
+}
+
 .legal {
   display: flex;
   gap: 1.1rem;

@@ -24,8 +24,10 @@
       <h1>Privacy policy</h1>
       <p>Effective October 17, 2026.</p>
       <p>
-        Kaishen is a budgeting app. This page describes what it handles when you
-        connect a bank or brokerage, and what this website does on its own.
+        Kaishen is a budgeting app operated by Dan McGuire. This page describes
+        what it handles when you connect a bank or brokerage. Questions and
+        deletion requests go to
+        <a href="mailto:privacy@kaishen.money">privacy@kaishen.money</a>.
       </p>
 
       <h2>What the app collects</h2>
@@ -34,6 +36,8 @@
         <li>The institution name</li>
         <li>Account names, types, masks, and balances</li>
         <li>Transactions, including merchant, date, and amount</li>
+        <li>Investment holdings and securities</li>
+        <li>Liability details, including mortgages and other loans</li>
         <li>The token Plaid uses so Kaishen can refresh that connection</li>
       </ul>
       <p>
@@ -43,16 +47,19 @@
 
       <h2>Why it is collected</h2>
       <p>
-        Kaishen uses that data to show spending, balances, and net worth for the
-        accounts you chose to connect. It does not move money. It does not sell
-        consumer data. It does not share that data with advertisers.
+        Kaishen uses that data to show spending, balances, holdings, debts, and
+        net worth for the accounts you chose to connect. It does not move money.
+        It does not sell consumer data. It does not share that data with
+        advertisers.
       </p>
 
       <h2>Where it is stored</h2>
       <p>
-        Connection data is stored on the server that runs Kaishen, so the app can
-        refresh the accounts you linked. Traffic to that server is encrypted with
-        HTTPS. The token that refreshes a connection stays on that server.
+        Connection data and the token that refreshes a connection are stored on
+        the server that runs Kaishen, encrypted at rest. The token stays on that
+        server and is not put in the browser. Traffic to the server is HTTPS.
+        Access to production is limited to the operator and requires
+        multi-factor authentication.
       </p>
 
       <h2>Plaid</h2>
@@ -65,11 +72,21 @@
       <h2>How long it is kept</h2>
       <p>
         Kaishen keeps a connection’s data so it can keep showing those accounts.
-        The data for a connection is deleted when that connection is removed.
+        That data is deleted when you revoke access at the institution, when you
+        revoke it through Plaid, or when the connection is removed. Email
+        <a href="mailto:privacy@kaishen.money">privacy@kaishen.money</a>
+        to ask for a connection to be removed. Backup copies are not kept longer
+        than 30 days.
+      </p>
+
+      <h2>Changes</h2>
+      <p>
+        Kaishen posts changes to this policy on this page and updates the
+        effective date.
       </p>
     </main>
     <footer>
-      <p>Kaishen</p>
+      <p><a href="mailto:privacy@kaishen.money">privacy@kaishen.money</a></p>
       <nav class="legal">
         <a href="index.html">Home</a>
         <a href="terms.html">Terms</a>
